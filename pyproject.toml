@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "btc-alert-marathibot"
+version = "0.1.0"
+description = "BTC Alert Bot in Marathi using Telegram and SMC strategy"
+authors = ["Rohit Dhote <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^20.0"
+requests = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
